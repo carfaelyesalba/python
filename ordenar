@@ -5,8 +5,8 @@ def main():
     lista = []
 
     lista.append( int(input("Introduzca el primer número: ")) )
-    lista.append( int(input("Introduzca el primer número: ")) )
-    lista.append( int(input("Introduzca el primer número: ")) )
+    lista.append( int(input("Introduzca el segundo número: ")) )
+    lista.append( int(input("Introduzca el tercer número: ")) )
 
     lista.sort()
 
