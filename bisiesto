@@ -1,0 +1,20 @@
+#!/usr/bin/env   pyhton
+# __*__   coding:utf-8  __*__
+def main():
+    print("Comprueba si es bisiesto el año que quieras")
+    year = int(input("Introduce un año: "))
+
+
+    if year % 4 == 0:
+        if year % 100 == 0:
+            if year % 400 == 0:
+                print('El año es bisiesto')
+            else:
+                print('El año no es bisiesto')
+        else:
+                        print('El año es bisiesto.')
+    else:
+        print('El año no es bisiesto.')
+
+if __name__ == "__main__":
+    main()
